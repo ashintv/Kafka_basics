@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "docker-compose up -d",
+    "down": "docker-compose down",
     "dev-p": "tsc -b && node ./dist/producer.js",
     "dev-c": "tsc -b && node ./dist/consumer.js"
   },
